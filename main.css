@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(/Imc_calculator-main/imgs/image-asset.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ .title{
+     color: #ffffff;
+     text-decoration: underline;
+ }
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding:25px;
+    backdrop-filter:blur(5px);
+    /*background:linear-gradient(to left,gray,silver,#000000) ; */   
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 20px;
+}
+   .nome{
+        margin: 8px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 40px;
+    
+    }
+    .altura{
+        margin: 8px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+    
+    }
+    .peso{
+        margin: 8px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-left: 17px;
+    
+    
+    }
+
+#calcular{
+    margin: 20px;
+    padding: 8px;
+    width: 180px;
+    border-radius: 9px;
+    border: none;
+    box-shadow: 4px 4px 3px black;
+    
+}
+.result{
+    background-color: #ffffff;
+    width: 200px;
+    height: 190px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: rgb(12, 234, 12);
+}
+#nome{
+    box-shadow: 2px 10px 20px;
+}
+#altura{
+    box-shadow: 2px 10px 20px;
+}
+#peso{
+    box-shadow: 2px 10px 20px;
+}
+#resultado{
+    box-shadow: 1.5px 5px 6px grey;
+}
